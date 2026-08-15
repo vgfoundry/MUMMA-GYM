@@ -1,0 +1,1971 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+    135deg,
+    #fffafa 0%,
+    #e8e0f7 50%,
+    #cfc0e8 100%
+);
+    color:white;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+    135deg,
+    #fffafa 0%,
+    #e8e0f7 50%,
+    #cfc0e8 100%
+);
+    color:white;
+}
+
+/* 👇 YAHAN SE NAYA CODE START HOGA */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px 40px;
+
+    background:#f8f5ff;
+
+    border-bottom:1px solid #e8e0ff;
+}
+
+.hero{
+    min-height:90vh;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:80px;
+
+    background:linear-gradient(135deg,#f8f6ef,#d7c4ff);
+}
+
+.hero-left{
+    width:50%;
+}
+
+.hero-right{
+    width:45%;
+    display:flex;
+    justify-content:center;
+}
+
+.hero-right img{
+    width:100%;
+    max-width:580px;
+}
+
+.hero h1{
+    font-size:65px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:24px;
+    margin-bottom:20px;
+    color:#555;
+}
+
+.hero-text{
+    max-width:500px;
+    line-height:1.6;
+}
+
+button{
+    margin-top:10px;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:20px;
+    color:#333;
+}
+
+.hero p{
+    font-size:24px;
+    margin-bottom:30px;
+    color:#555;
+}
+
+button{
+    padding:15px 35px;
+    font-size:18px;
+    border:none;
+    background:gold;
+    cursor:pointer;
+    border-radius:8px;
+}
+button:hover{
+    background: #ffb300;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(255, 196, 0, 0.35);
+    transition: all 0.3s ease;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px 40px;
+}
+
+.logo img{
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.logo h2{
+    font-size: 28px;
+    color:#6d4aff;
+}
+.nav-links{
+    display:flex;
+    gap:30px;
+}
+
+.nav-links li{
+    list-style:none;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#555;
+    font-size:18px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#7B68EE;
+}
+
+.about{
+    background:#f8f5ff;
+    color:#333;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.about h2{
+    font-size:40px;
+    color:#7a5af8;
+    margin-bottom:20px;
+}
+
+.about p{
+    max-width:700px;
+    margin:auto;
+    font-size:20px;
+    line-height:1.8;
+}
+.tagline{
+    font-size:18px;
+    color:#666;
+    margin-bottom:30px;
+}
+.features{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+
+    padding:70px 80px;
+
+    background:#faf8f3;
+}
+
+.card{
+    width:300px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 35px rgba(122,90,248,0.25);
+}
+
+.card h3{
+    font-size:28px;
+
+    margin-bottom:15px;
+
+    color:#7a5af8;
+}
+
+.card p{
+    color:#666;
+
+    line-height:1.7;
+}
+.hero-right img{
+    width: 100%;
+    max-width: 580px;
+    border-radius: 25px;
+    object-fit: cover;
+    box-shadow: 0 20px 40px rgba(120,90,255,0.18);
+}
+/* ---------- OUR SERVICES ---------- */
+
+.classes{
+    padding:80px 40px;
+    background:#f8f5ff;
+    text-align:center;
+}
+
+.classes h2{
+    font-size:42px;
+    color:#6d4aff;
+    margin-bottom:50px;
+}
+
+.classes-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.class-card{
+    background:white;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.class-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(109,74,255,0.25);
+}
+
+.class-card h3{
+    color:#6d4aff;
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+.class-card p{
+    color:#555;
+    line-height:1.7;
+}
+/* ================================
+   SEEMA MA'AM - FEATURE CARDS
+   ================================ */
+
+.seema-collage {
+    width: 100%;
+    max-width: 1050px;
+    margin: 45px auto 10px;
+    padding: 0 10px;
+
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+}
+
+.seema-card {
+    position: relative;
+    overflow: hidden;
+
+    background: #f1eef5;
+    border: 1px solid rgba(130, 112, 155, 0.18);
+    border-radius: 22px;
+
+    box-shadow:
+        0 12px 30px rgba(70, 60, 80, 0.12);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+
+    min-width: 0;
+}
+
+.seema-card:hover {
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 18px 40px rgba(70, 60, 80, 0.20);
+}
+
+.seema-card img {
+    display: block;
+
+    width: 100%;
+    height: 280px;
+
+    object-fit: cover;
+    object-position: center;
+
+    margin: 0;
+    padding: 0;
+
+    transition: transform 0.5s ease;
+}
+
+.seema-card:hover img {
+    transform: scale(1.035);
+}
+
+.seema-card-overlay {
+    padding: 20px 22px 22px;
+
+    text-align: left;
+
+    background: #eeeaf2;
+}
+
+.seema-card-overlay h3 {
+    margin: 0 0 6px;
+
+    color: #71628f;
+
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.seema-card-overlay p {
+    margin: 0;
+
+    color: #6f6a73;
+
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Mobile layout */
+@media (max-width: 700px) {
+
+    .seema-collage {
+        grid-template-columns: 1fr;
+        gap: 22px;
+
+        margin-top: 30px;
+        padding: 0 15px;
+    }
+
+    .seema-card img {
+        height: 240px;
+    }
+
+    .seema-card-overlay h3 {
+        font-size: 20px;
+    }
+}
+/* ===== BEAUTIFUL GALLERY ===== */
+
+.gallery {
+    background: #ffffff;
+    padding: 80px 6%;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    color: #4f6fdc;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.gallery-subtitle {
+    font-size: 17px;
+    color: #777;
+    margin: 0 auto 45px;
+}
+
+/* Masonry-style layout */
+.gallery-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    columns: 3;
+    column-gap: 22px;
+}
+
+.gallery-item {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 22px;
+    overflow: hidden;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
+    break-inside: avoid;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.04);
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .gallery-grid {
+        columns: 2;
+        column-gap: 18px;
+    }
+
+    .gallery-item {
+        margin-bottom: 18px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .gallery {
+        padding: 60px 5%;
+    }
+
+    .gallery h2 {
+        font-size: 32px;
+    }
+
+    .gallery-subtitle {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .gallery-grid {
+        columns: 1;
+    }
+
+    .gallery-item {
+        margin-bottom: 18px;
+        border-radius: 16px;
+    }
+}
+/* =========================
+   FLOATING WHATSAPP BUTTON
+   ========================= */
+
+.whatsapp-float {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+
+    width: 60px;
+    height: 60px;
+
+    background: #25D366;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    font-size: 32px;
+
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35);
+
+    z-index: 99999;
+
+    transition: 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    transform: translateY(-4px) scale(1.08);
+
+    box-shadow: 0 10px 28px rgba(37, 211, 102, 0.45);
+}
+
+.whatsapp-float i {
+    line-height: 1;
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    .whatsapp-float {
+        width: 55px;
+        height: 55px;
+
+        right: 18px;
+        bottom: 18px;
+
+        font-size: 29px;
+    }
+}
+/* Book Your Session Button */
+
+.booking-btn {
+    display: inline-block;
+
+    background: #6F5A9E;
+    color: #ffffff;
+
+    padding: 14px 28px;
+
+    border-radius: 12px;
+
+    text-decoration: none;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    border: 1px solid #806bb0;
+
+    box-shadow: 0 6px 16px rgba(111, 90, 158, 0.25);
+
+    transition: all 0.3s ease;
+}
+
+.booking-btn:hover {
+    background: #806BB0;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 9px 22px rgba(111, 90, 158, 0.35);
+}
+/* =========================
+   CLEAN CONTACT SECTION
+   ========================= */
+
+.contact {
+    padding: 80px 8%;
+    background: #fbf9ff;
+}
+
+.contact-content {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+
+    align-items: center;
+}
+
+/* LEFT SIDE */
+
+.contact-left h2 {
+    margin: 0 0 12px;
+
+    color: #4b2e83;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contact-left > p {
+    margin: 0 0 35px;
+
+    color: #666;
+    font-size: 16px;
+    line-height: 1.7;
+
+    max-width: 520px;
+}
+
+/* CONTACT ITEMS */
+
+.contact-item {
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+    margin-bottom: 22px;
+}
+
+.contact-icon {
+    width: 45px;
+    height: 45px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #eee5ff;
+    color: #5b3a91;
+
+    font-size: 19px;
+}
+
+.contact-item h3 {
+    margin: 0 0 4px;
+
+    color: #4b2e83;
+    font-size: 17px;
+}
+
+.contact-item p {
+    margin: 0;
+
+    color: #666;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* INSTAGRAM */
+
+.contact-item a {
+    color: #5b3a91;
+
+    text-decoration: none;
+    font-weight: 600;
+
+    transition: 0.2s ease;
+}
+
+.contact-item a:hover {
+    color: #40256d;
+}
+
+/* INSTAGRAM LOGO */
+
+.instagram-link {
+    display: inline-flex;
+
+    align-items: center;
+    gap: 8px;
+}
+
+.instagram-link i {
+    font-size: 19px;
+}
+
+/* RIGHT CARD */
+
+.contact-right {
+    display: flex;
+    align-items: center;
+}
+
+.contact-card {
+    width: 100%;
+
+    padding: 38px;
+
+    background: #ffffff;
+
+    border: 1px solid #e6dcf5;
+
+    border-radius: 26px;
+
+    box-shadow:
+        0 12px 35px rgba(76, 48, 131, 0.10);
+}
+
+.contact-lotus {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.contact-card h3 {
+    margin: 0 0 12px;
+
+    color: #4b2e83;
+    font-size: 27px;
+}
+
+.contact-card p {
+    margin: 0;
+
+    color: #666;
+
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* SMALL TAGS */
+
+.contact-highlight {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-top: 25px;
+}
+
+.contact-highlight span {
+    padding: 8px 14px;
+
+    background: #eee5ff;
+
+    color: #5b3a91;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .contact {
+        padding: 60px 6%;
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+    }
+
+    .contact-left h2 {
+        font-size: 32px;
+    }
+
+    .contact-card {
+        padding: 28px;
+    }
+
+    .contact-card h3 {
+        font-size: 24px;
+    }
+}
+.instagram-icon {
+    color: #7b5cc7;
+    font-size: 20px;
+}
+
+.instagram-link {
+    color: #5f5a68;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.instagram-link:hover {
+    color: #6f4bb8;
+}
+/* ================================
+   YOUTUBE SECTION
+================================ */
+
+.youtube-section {
+    padding: 90px 8%;
+    background: linear-gradient(
+        180deg,
+        #ffffff 0%,
+        #faf7ff 100%
+    );
+    text-align: center;
+}
+
+.youtube-heading {
+    max-width: 750px;
+    margin: 0 auto 45px;
+}
+
+.youtube-heading h2 {
+    margin: 0 0 12px;
+    font-size: 42px;
+    color: #49317d;
+    font-family: Georgia, serif;
+}
+
+.youtube-heading p {
+    margin: 0;
+    font-size: 17px;
+    color: #6f6780;
+}
+
+
+/* Intro */
+
+.youtube-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.youtube-intro {
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+
+.youtube-intro h3 {
+    margin: 0 0 12px;
+    font-size: 27px;
+    color: #49317d;
+}
+
+.youtube-intro p {
+    margin: 0 auto 22px;
+    line-height: 1.7;
+    color: #6f6780;
+    font-size: 16px;
+}
+
+
+/* YouTube Channel Button */
+
+.youtube-channel-btn {
+    display: inline-block;
+    padding: 13px 25px;
+    border-radius: 30px;
+    background: #5a3b91;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.youtube-channel-btn:hover {
+    background: #432b70;
+    transform: translateY(-2px);
+}
+
+
+/* Video Grid */
+
+.youtube-videos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    text-align: left;
+}
+
+
+/* Video Card */
+
+.youtube-card {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #e6ddf5;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(91, 62, 145, 0.10);
+    transition: 0.3s ease;
+}
+
+.youtube-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 32px rgba(91, 62, 145, 0.18);
+}
+
+
+/* Thumbnail */
+
+.youtube-thumbnail {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+
+.youtube-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: 0.4s ease;
+}
+
+.youtube-card:hover .youtube-thumbnail img {
+    transform: scale(1.04);
+}
+
+
+/* Card Content */
+
+.youtube-card-content {
+    padding: 20px;
+}
+
+.youtube-card-content h3 {
+    margin: 0 0 8px;
+    font-size: 21px;
+    color: #49317d;
+}
+
+.youtube-card-content p {
+    margin: 0 0 15px;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #756d83;
+}
+
+.youtube-card-content a {
+    color: #5a3b91;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.youtube-card-content a:hover {
+    text-decoration: underline;
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 900px) {
+
+    .youtube-section {
+        padding: 70px 6%;
+    }
+
+    .youtube-heading h2 {
+        font-size: 34px;
+    }
+
+    .youtube-videos {
+        grid-template-columns: 1fr;
+        max-width: 520px;
+        margin: auto;
+    }
+
+}
+
+
+/* Small Mobile */
+
+@media (max-width: 500px) {
+
+    .youtube-section {
+        padding: 60px 5%;
+    }
+
+    .youtube-heading h2 {
+        font-size: 30px;
+    }
+
+    .youtube-heading p {
+        font-size: 15px;
+    }
+
+    .youtube-intro h3 {
+        font-size: 24px;
+    }
+
+}
+/* =====================================================
+   FINAL RESPONSIVE DESIGN
+   MOBILE + TABLET
+   ===================================================== */
+
+
+/* =====================================================
+   TABLET — 901px to 1100px
+   ===================================================== */
+
+@media (max-width: 1100px) {
+
+    /* NAVBAR */
+
+    nav {
+        padding: 12px 25px;
+    }
+
+    .logo {
+        padding: 10px 0;
+    }
+
+    .logo img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .logo h2 {
+        font-size: 23px;
+    }
+
+    .nav-links {
+        gap: 18px;
+    }
+
+    .nav-links a {
+        font-size: 15px;
+    }
+
+
+    /* HERO */
+
+    .hero {
+        padding: 60px 35px;
+        gap: 35px;
+    }
+
+    .hero-left,
+    .hero-right {
+        width: 50%;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .hero p {
+        font-size: 19px;
+    }
+
+
+    /* SERVICES */
+
+    .classes {
+        padding: 70px 30px;
+    }
+
+    .classes h2 {
+        font-size: 36px;
+        margin-bottom: 35px;
+    }
+
+    .classes-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 22px;
+    }
+
+    .class-card {
+        width: 100%;
+        padding: 25px 20px;
+    }
+
+
+    /* SEEMA CARDS */
+
+    .seema-collage {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+    .seema-card img {
+        height: 230px;
+    }
+
+
+    /* GALLERY */
+
+    .gallery {
+        padding: 70px 5%;
+    }
+
+    .gallery-grid {
+        columns: 2;
+        column-gap: 18px;
+    }
+
+    .gallery-item {
+        margin-bottom: 18px;
+    }
+
+
+    /* CONTACT */
+
+    .contact {
+        padding: 70px 6%;
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .contact-card {
+        padding: 28px;
+    }
+
+
+    /* YOUTUBE */
+
+    .youtube-section {
+        padding: 70px 6%;
+    }
+
+    .youtube-videos {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+}
+
+
+
+/* =====================================================
+   MOBILE — 768px AND BELOW
+   ===================================================== */
+
+@media (max-width: 768px) {
+
+    /* =================================================
+       GLOBAL
+       ================================================= */
+
+    html {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    section {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    /* =================================================
+       NAVBAR
+       ================================================= */
+
+    nav {
+        width: 100%;
+        padding: 10px 14px 12px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 8px;
+
+        overflow: hidden;
+    }
+
+
+    /* LOGO */
+
+    .logo {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        gap: 8px;
+
+        padding: 5px 0;
+    }
+
+    .logo img {
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+
+    .logo h2 {
+        font-size: 20px;
+        line-height: 1.2;
+        white-space: nowrap;
+    }
+
+
+    /* NAV LINKS */
+
+    .nav-links {
+        width: 100%;
+
+        display: flex !important;
+
+        align-items: center;
+        justify-content: center;
+
+        gap: 8px;
+
+        margin: 0;
+        padding: 4px 0 2px;
+
+        list-style: none;
+
+        flex-wrap: nowrap;
+
+        overflow: hidden;
+    }
+
+    .nav-links li {
+        display: block !important;
+
+        margin: 0;
+        padding: 0;
+
+        flex: 0 0 auto;
+    }
+
+    .nav-links a {
+        display: block !important;
+
+        color: #555 !important;
+
+        font-size: 12px;
+        font-weight: 600;
+
+        text-decoration: none;
+
+        white-space: nowrap;
+
+        padding: 6px 7px;
+
+        border-radius: 8px;
+
+        transition: 0.25s ease;
+    }
+
+    .nav-links a:hover {
+        color: #6d4aff !important;
+        background: #f0eaff;
+    }
+
+
+    /* =================================================
+       HERO
+       ================================================= */
+
+    .hero {
+        width: 100%;
+        min-height: auto;
+
+        padding: 50px 18px 55px;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+
+        gap: 28px;
+    }
+
+    .hero-left,
+    .hero-right {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+        line-height: 1.12;
+
+        margin-bottom: 15px;
+
+        color: #333;
+    }
+
+    .hero p {
+        font-size: 17px;
+        line-height: 1.55;
+
+        margin-bottom: 20px;
+
+        max-width: 420px;
+    }
+
+    .hero-text {
+        width: 100%;
+        max-width: 420px;
+
+        line-height: 1.6;
+    }
+
+    .hero-right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-right img {
+        width: 100%;
+        max-width: 430px;
+
+        height: auto;
+
+        border-radius: 18px;
+
+        object-fit: cover;
+    }
+
+
+    /* =================================================
+       ABOUT
+       ================================================= */
+
+    .about {
+        width: 100%;
+
+        padding: 55px 18px;
+
+        text-align: center;
+    }
+
+    .about h2 {
+        font-size: 32px;
+
+        line-height: 1.2;
+
+        margin-bottom: 14px;
+    }
+
+    .about p {
+        font-size: 16px;
+
+        line-height: 1.7;
+
+        max-width: 500px;
+    }
+
+    .tagline {
+        font-size: 15px;
+
+        line-height: 1.5;
+
+        margin-bottom: 20px;
+    }
+
+
+    /* =================================================
+       FEATURE CARDS
+       ================================================= */
+
+    .features {
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        gap: 14px;
+
+        padding: 45px 15px;
+    }
+
+    .card {
+        width: 100%;
+        min-width: 0;
+
+        padding: 22px 13px;
+
+        border-radius: 15px;
+    }
+
+    .card h3 {
+        font-size: 19px;
+
+        line-height: 1.25;
+
+        margin-bottom: 9px;
+    }
+
+    .card p {
+        font-size: 13px;
+
+        line-height: 1.55;
+    }
+
+
+    /* =================================================
+       SERVICES
+       ================================================= */
+
+    .classes {
+        width: 100%;
+
+        padding: 55px 15px;
+    }
+
+    .classes h2 {
+        font-size: 32px;
+
+        line-height: 1.2;
+
+        margin-bottom: 28px;
+    }
+
+    .classes-grid {
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        gap: 14px;
+    }
+
+    .class-card {
+        width: 100%;
+        min-width: 0;
+
+        padding: 22px 13px;
+
+        border-radius: 15px;
+    }
+
+    .class-card h3 {
+        font-size: 18px;
+
+        line-height: 1.25;
+
+        margin-bottom: 8px;
+    }
+
+    .class-card p {
+        font-size: 13px;
+
+        line-height: 1.55;
+    }
+
+
+    /* =================================================
+       SEEMA FEATURE CARDS
+       ================================================= */
+
+    .seema-collage {
+        width: 100%;
+
+        padding: 0 15px;
+
+        display: grid;
+
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        gap: 14px;
+
+        margin-top: 25px;
+    }
+
+    .seema-card {
+        width: 100%;
+        min-width: 0;
+
+        border-radius: 15px;
+
+        overflow: hidden;
+    }
+
+    .seema-card img {
+        width: 100%;
+
+        height: 165px;
+
+        object-fit: cover;
+
+        display: block;
+    }
+
+    .seema-card-overlay {
+        padding: 13px;
+    }
+
+    .seema-card-overlay h3 {
+        font-size: 16px;
+
+        line-height: 1.25;
+
+        margin-bottom: 5px;
+    }
+
+    .seema-card-overlay p {
+        font-size: 12px;
+
+        line-height: 1.45;
+    }
+
+
+    /* =================================================
+       GALLERY
+       ================================================= */
+
+    .gallery {
+        width: 100%;
+
+        padding: 55px 15px;
+
+        overflow: hidden;
+    }
+
+    .gallery h2 {
+        font-size: 32px;
+
+        line-height: 1.2;
+
+        margin-bottom: 8px;
+    }
+
+    .gallery-subtitle {
+        font-size: 14px;
+
+        line-height: 1.5;
+
+        margin-bottom: 25px;
+    }
+
+
+    /* IMPORTANT:
+       REAL GRID — NO HUGE SINGLE IMAGES
+    */
+
+    .gallery-grid {
+        width: 100%;
+
+        max-width: 100%;
+
+        margin: 0 auto;
+
+        display: grid;
+
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        column-gap: 10px;
+
+        row-gap: 10px;
+
+        columns: unset !important;
+    }
+
+    .gallery-item {
+        width: 100%;
+
+        height: 155px;
+
+        margin: 0 !important;
+
+        border-radius: 12px;
+
+        overflow: hidden;
+
+        break-inside: auto;
+
+        background: #f5f2fa;
+    }
+
+    .gallery-item img {
+        width: 100%;
+
+        height: 100%;
+
+        display: block;
+
+        object-fit: cover;
+
+        object-position: center;
+
+        transition: transform 0.35s ease;
+    }
+
+    .gallery-item:hover img {
+        transform: scale(1.04);
+    }
+
+
+    /* =================================================
+       CONTACT
+       ================================================= */
+
+    .contact {
+        width: 100%;
+
+        padding: 55px 16px;
+    }
+
+    .contact-content {
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 28px;
+    }
+
+    .contact-left,
+    .contact-right {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact-left h2 {
+        font-size: 30px;
+
+        line-height: 1.2;
+    }
+
+    .contact-left > p {
+        font-size: 14px;
+
+        line-height: 1.6;
+
+        margin-bottom: 24px;
+    }
+
+    .contact-item {
+        gap: 11px;
+
+        margin-bottom: 17px;
+    }
+
+    .contact-icon {
+        width: 40px;
+        height: 40px;
+
+        flex-shrink: 0;
+
+        font-size: 17px;
+    }
+
+    .contact-item h3 {
+        font-size: 15px;
+    }
+
+    .contact-item p {
+        font-size: 13px;
+
+        line-height: 1.45;
+    }
+
+    .contact-card {
+        width: 100%;
+
+        padding: 24px 19px;
+
+        border-radius: 20px;
+    }
+
+    .contact-card h3 {
+        font-size: 22px;
+
+        line-height: 1.25;
+    }
+
+    .contact-card p {
+        font-size: 14px;
+
+        line-height: 1.6;
+    }
+
+    .contact-highlight {
+        display: flex;
+
+        flex-wrap: wrap;
+
+        gap: 7px;
+    }
+
+    .contact-highlight span {
+        padding: 7px 10px;
+
+        font-size: 11px;
+    }
+
+
+    /* =================================================
+       YOUTUBE
+       ================================================= */
+
+    .youtube-section {
+        width: 100%;
+
+        padding: 55px 15px;
+    }
+
+    .youtube-heading {
+        width: 100%;
+
+        margin-bottom: 28px;
+    }
+
+    .youtube-heading h2 {
+        font-size: 30px;
+
+        line-height: 1.2;
+    }
+
+    .youtube-heading p {
+        font-size: 14px;
+
+        line-height: 1.5;
+    }
+
+    .youtube-intro {
+        width: 100%;
+
+        margin-bottom: 28px;
+    }
+
+    .youtube-intro h3 {
+        font-size: 22px;
+
+        line-height: 1.25;
+    }
+
+    .youtube-intro p {
+        font-size: 14px;
+
+        line-height: 1.6;
+    }
+
+    .youtube-videos {
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        gap: 12px;
+    }
+
+    .youtube-card {
+        width: 100%;
+        min-width: 0;
+
+        border-radius: 14px;
+
+        overflow: hidden;
+    }
+
+    .youtube-thumbnail {
+        width: 100%;
+
+        aspect-ratio: 16 / 9;
+
+        overflow: hidden;
+    }
+
+    .youtube-thumbnail img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+    .youtube-card-content {
+        padding: 12px;
+    }
+
+    .youtube-card-content h3 {
+        font-size: 15px;
+
+        line-height: 1.3;
+    }
+
+    .youtube-card-content p {
+        font-size: 12px;
+
+        line-height: 1.45;
+    }
+
+
+    /* =================================================
+       BOOKING BUTTON
+       ================================================= */
+
+    .booking-btn {
+        padding: 12px 20px;
+
+        font-size: 14px;
+    }
+
+
+    /* =================================================
+       WHATSAPP
+       ================================================= */
+
+    .whatsapp-float {
+        width: 52px;
+        height: 52px;
+
+        right: 15px;
+        bottom: 15px;
+
+        font-size: 26px;
+
+        z-index: 99999;
+    }
+}
+
+
+
+/* =====================================================
+   VERY SMALL PHONES — 380px AND BELOW
+   ===================================================== */
+
+@media (max-width: 380px) {
+
+    /* NAVBAR */
+
+    nav {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo h2 {
+        font-size: 18px;
+    }
+
+    .logo img {
+        width: 38px;
+        height: 38px;
+    }
+
+    .nav-links {
+        gap: 4px;
+    }
+
+    .nav-links a {
+        font-size: 11px;
+
+        padding: 5px 5px;
+    }
+
+
+    /* HERO */
+
+    .hero {
+        padding: 45px 15px 50px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+
+    /* CARDS */
+
+    .features,
+    .classes-grid,
+    .seema-collage,
+    .youtube-videos {
+        gap: 10px;
+    }
+
+    .card,
+    .class-card {
+        padding: 18px 10px;
+    }
+
+    .card h3 {
+        font-size: 17px;
+    }
+
+    .class-card h3 {
+        font-size: 16px;
+    }
+
+
+    /* GALLERY */
+
+    .gallery {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .gallery-grid {
+        column-gap: 8px;
+
+        row-gap: 8px;
+    }
+
+    .gallery-item {
+        height: 135px;
+
+        border-radius: 9px;
+    }
+
+
+    /* SEEMA */
+
+    .seema-collage {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .seema-card img {
+        height: 140px;
+    }
+
+    .seema-card-overlay {
+        padding: 10px;
+    }
+
+    .seema-card-overlay h3 {
+        font-size: 14px;
+    }
+
+    .seema-card-overlay p {
+        font-size: 10px;
+    }
+
+
+    /* YOUTUBE */
+
+    .youtube-card-content {
+        padding: 9px;
+    }
+
+    .youtube-card-content h3 {
+        font-size: 13px;
+    }
+
+    .youtube-card-content p {
+        font-size: 11px;
+    }
+}
+/* ================================
+   FINAL PAGE BACKGROUND
+================================ */
+
+body {
+    background: linear-gradient(
+        135deg,
+        #ddd4f5 0%,
+        #c9b9ee 45%,
+        #b8a5e5 100%
+    ) !important;
+}
